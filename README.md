@@ -1,24 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Immersive Portfolio
 
-## Getting Started
+This repository contains a personal portfolio built with [Next.js](https://nextjs.org) (v16) and TypeScript. It demonstrates work samples, animations, and custom hooks for a seamless experience.
 
-First, run the development server:
+## Development
+
+Run the dev server and open your browser:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit [http://localhost:3000](http://localhost:3000) to view the site. Modify `app/page.tsx` or other components — the app supports hot reloading.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The project automatically optimizes fonts using the `next/font` API, loading the custom **Geist** family with both sans and mono variants.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Scripts
+
+- `npm run dev` – start development server
+- `npm run build` – compile for production
+- `npm run start` – start production server
+- `npm run lint` – run ESLint checks
+
+## Deployment
+
+Deploy easily on Vercel or any Node.js host supporting Next.js. See [Next.js deployment docs](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
 ## Learn More
 
