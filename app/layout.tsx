@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 // TODO: Replace with your actual deployed Vercel URL after deployment
-const SITE_URL = "https://abhijot.vercel.app"
+const SITE_URL = "https://portfolio-eight-tau-71.vercel.app"
 
 export const metadata: Metadata = {
   title: "Abhijot Singh – Frontend & AI Developer",

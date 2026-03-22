@@ -28,12 +28,12 @@ export default function AIESECSection() {
                 <div className="grid grid-cols-1 gap-6">
 
                     <img
-                        src="/images/Aiesec chd.png"
+                        src="/images/aiesec-chd.png"
                         className="rounded-xl object-cover w-full h-[220px]"
                     />
 
                     <img
-                        src="/images/Aiesec team.png"
+                        src="/images/aiesec-team.png"
                         className="rounded-xl object-cover w-full h-[220px]"
                     />
 
